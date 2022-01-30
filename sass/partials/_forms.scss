@@ -1,0 +1,179 @@
+.form-body {
+  background-color: $background-colour;
+}
+
+//Login form
+
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: $form-background-colour;
+  border-radius: 10px;
+  
+  & label {
+    display: block;
+  }
+
+  & input, button {
+    width: 100%;
+    outline: none;  
+    border: 1px solid;
+  }
+
+  & button {
+    border: none;
+    color: $button-colour;
+    background-color: $secondary-colour;
+    height: 35px;
+  }
+}
+
+.login-username-error, .login-password-error{
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+
+//Add shoes form
+
+.add-shoes-form {
+  padding: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: $form-background-colour;
+  border-radius: 10px;
+  
+  & label {
+    display: block;
+  }
+
+  & input, button , textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid;
+    resize: none;
+  }
+
+  & textarea {
+    height: 100px;
+  } 
+
+  & button {
+    border: none;
+    color: $button-colour;
+    background-color: $secondary-colour;
+    height: 35px;
+  }
+}
+
+#add-shoe-featured-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.add-shoe-image-url-error, .add-shoe-title-error, .add-shoe-price-error, .add-shoe-description-error {
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+
+//Edit shoes form
+
+.edit-shoes-form {
+  display: none;
+  padding: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: $form-background-colour;
+  border-radius: 10px;
+  
+  & label {
+    display: block;
+  }
+
+  & input, button , textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid;
+    resize: none;
+  }
+
+  & textarea {
+    height: 100px;
+  } 
+
+  & button {
+    border: none;
+    color: $button-colour;
+    background-color: $secondary-colour;
+    height: 35px;
+  }
+}
+
+.delete-shoe-button {
+  width: 100%;
+  outline: none;
+  height: 35px;
+  color: $button-colour;
+  background-color: red;
+  text-align: center;
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+#edit-shoes-featured-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+#edit-shoes-form-id {
+  display: none;
+}
+
+.edit-shoes-image-url-error, .edit-shoes-title-error, .edit-shoes-price-error, .edit-shoes-description-error {
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+
+//Contact form
+
+.contact-form {
+  padding: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: $form-background-colour;
+  border-radius: 10px;
+  
+  & label {
+    display: block;
+  }
+
+  & input, button , textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid;
+    resize: none;
+  }
+
+  & textarea {
+    height: 100px;
+  } 
+
+  & button {
+    border: none;
+    color: $button-colour;
+    background-color: $secondary-colour;
+    height: 35px;
+  }
+}
+
+.contact-first-name-error, .contact-last-name-error, .contac-email-error, .contact-subject-error {
+  font-size: 14px;
+  color: red;
+  display: none;
+}

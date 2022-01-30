@@ -1,0 +1,27 @@
+.message {
+  width: 100%;
+  padding: 15px;
+}
+
+.normal {
+  color: $description-text-colour;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.error {
+  border-color: red;
+  color: white;
+  background: red;
+}
+
+.warning {
+  color: white;
+  background: orange;
+}
+
+.success {
+  border-color: green;
+  color: white;
+  background: green;
+}

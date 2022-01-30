@@ -1,0 +1,39 @@
+.shoe-details-container {
+  margin-top: 100px;
+}
+
+.shoe-details-image {
+  max-width:100%;
+}
+
+#select-size {
+  width: 135px;
+  height: 40px;
+  outline: none;
+}
+
+.shoe-details-add-to-cart-button {
+  width: 135px;
+  height: 40px;
+  padding-top: 6px;
+  text-align: center;
+  color: $button-colour;
+  cursor: pointer;
+  background-color: $secondary-colour;
+}
+
+.check-icon {
+  background-color: $secondary-colour;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 7px;
+  color: $icon-colour;
+  font-size: 12px;
+}
+
+.shoe-details-description-container {
+  word-wrap: break-word;
+}
+

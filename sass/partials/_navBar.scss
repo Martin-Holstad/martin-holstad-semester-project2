@@ -1,0 +1,176 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: black;
+  padding-top: 7px;
+}
+
+//Main nav
+
+nav {
+  
+  li {
+    display: inline;
+    margin: 0px 20px 0px 0px;
+    
+    & a {
+      text-decoration: none;
+      color: $link-colour;
+    }
+  
+    & a:hover {
+      text-decoration: underline;
+      color: $link-colour;
+    }
+  
+    & .active{
+      text-decoration: underline;
+    }
+  }
+}
+
+//Main nav icons
+
+.main-nav-icons {
+  color: $icon-colour;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+//Admin menu
+
+.admin-dropdown-menu {
+  position: relative;
+}
+
+.admin-dropdown-button {
+  color: $button-colour;
+  cursor: pointer;
+}
+
+.admin-dropdown-icon {
+  margin-left: 10px;
+}
+
+.admin-dropdown-content {
+  background-color: #fff;
+  display: none;
+  width: 130px;
+  border: 1px solid gray;
+  top: 40px;
+  position: absolute;
+  padding: 5px 0px 5px 0px;
+  z-index: 1;
+
+  & li {
+    margin-left: 5px;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  & li:hover {
+    font-weight: bold;
+  }
+
+  & a {
+   color: $primary-colour;
+   text-decoration: none;
+  }
+
+  & a:hover {
+    color: $primary-colour;
+   }
+
+  & hr {
+   margin: 5px 0px 5px 0px;
+  }
+}
+
+//Shopping bag
+
+.shopping-bag {
+  position: relative;
+}
+
+.shopping-bag-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  padding-top: 1px;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+//Hamburger menu
+
+.hamburger-menu-container{
+  display: none;
+}
+
+.hamburger-menu-button {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.hamburger-menu-content {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  z-index: 1;
+  top: 61px;
+  padding: 10px;
+  list-style: none;
+  left: 0px;
+  right: 0px;
+
+  & li {
+    margin-top: 20px;
+  }
+
+   & a {
+     text-decoration: none;
+     color: black;
+   }
+}
+
+//common
+
+.show {
+  display: block;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+  header {
+    justify-content: space-between;
+    padding: 10px 10px;
+  }
+
+  .logo {
+    margin-right: -70px;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .hamburger-menu-container {
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  .logo {
+    margin-right: 0px;
+  }
+}

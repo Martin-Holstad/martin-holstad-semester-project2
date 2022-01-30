@@ -1,0 +1,73 @@
+//cart section
+
+.cart-shoes-container {
+
+  & img {
+    object-fit: cover;
+    height: 150px;
+  }
+
+  & input {
+    max-width: 40px;
+    outline: none;
+  }
+}
+
+.cart-trash-icon {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+//checkout section
+
+.checkout-container {
+  border-left: 1px solid gray;
+  height: fit-content;
+}
+
+.checkout-header {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.checkout-button {
+  background-color: $secondary-colour;
+  color: $button-colour;
+  text-align: center;
+  height: 45px;
+  padding-top: 10px;
+
+  cursor: pointer;
+}
+
+.checkout-check-icon {
+  background-color: $secondary-colour;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 7px;
+  color: $icon-colour;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .cart-checkout-container {
+    border-left: none;
+  }
+
+  .checkout-container {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+
+  .cart-shoes-container {
+
+    & img {
+      object-fit: cover;
+      height: auto;
+    }
+  }
+}

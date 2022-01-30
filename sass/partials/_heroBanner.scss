@@ -1,0 +1,83 @@
+.hero-banner-container {
+  overflow: hidden;
+}
+
+.hero-banner{
+  position: relative;
+  background-size: cover;
+  height: 900px;
+  margin-top: -200px;
+}
+
+.hero-banner-content {
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  padding: 20px;
+  bottom: 320px;
+  backdrop-filter: blur(3px) brightness(40%);
+
+  &  h1 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+  }
+}
+
+.hero-banner-button {
+  position: absolute;
+  color: $button-colour;
+  cursor: pointer;
+  max-width: 300px;
+  height: 40px;
+  padding: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 250px;
+  border: 1px solid #fff;
+  backdrop-filter: blur(10px) brightness(60%);
+
+  & a {
+    color: $link-colour;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .hero-banner{
+    height: 600px;
+    margin-top: -200px;
+  }
+
+  .hero-banner-content {
+    padding: 5px;
+    bottom: 220px;
+
+    & h1 {
+      font-size: 30px;
+    }
+  }
+
+  .hero-banner-button {
+    max-width: 200px;
+    height: 30px;
+    padding: 5px;
+    bottom: 160px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero-banner-content {
+
+    & h1 {
+      font-size: 20px;
+    }
+  }
+}

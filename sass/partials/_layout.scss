@@ -1,0 +1,54 @@
+//Base layout
+
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.about-us-content-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+//H1 layout
+
+.h1-container{
+  margin-top: 70px;
+  height: 70px;
+}
+
+//Cards layout
+
+.featured-shoes-header {
+  margin-top: 100px;
+}
+
+.shoes-container, .featured-shoes-container, .favorites-shoes-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .shoes-container, .featured-shoes-container, .favorites-shoes-container {
+
+    grid-template-columns: 1fr 1fr;
+  }
+  }
+
+  @media only screen and (max-width: 500px) {
+  .shoes-container, .featured-shoes-container, .favorites-shoes-container {
+  
+    grid-template-columns: 1fr;  
+  }
+}

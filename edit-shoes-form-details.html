@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Edit shoe</title>
+</head>
+
+<body class="form-body">
+  <div class="wrapper">
+
+    <header></header>
+
+    <main>
+      <div class="loader"></div>
+      <form class="edit-shoes-form">
+        <h1 class="text-center mb-3">Edit shoe</h1>
+        <div class="display-message-container"></div>
+        <div>
+          <label class="edit-shoes-image-url-label mt-3 mb-0" for="image">Image_url</label>
+          <p class="edit-shoes-image-url-error mb-0">Need to add an image_url</p>
+          <input type="text" name="image" id="edit-shoes-form-image-url-input" placeholder="Image_url">
+        </div>
+        <div>
+          <label class="edit-shoes-title-label mt-3 mb-0" for="title">Title</label>
+          <p class="edit-shoes-title-error mb-0">Need to fill out title</p>
+          <input type="text" name="title" id="edit-shoes-form-title-input" placeholder="Title">
+        </div>
+        <div>
+          <label class="edit-shoes-price-label mt-3 mb-0" for="price">Price</label>
+          <p class="edit-shoes-price-error mb-0">Need to fill out price with a number</p>
+          <input type="text" name="price" id="edit-shoes-form-price-input" placeholder="Price">
+        </div>
+        <div>
+          <label class="edit-shoes-description-label mt-3 mb-0" for="description">description</label>
+          <p class="edit-shoes-description-error mb-0">Need to fill out description</p>
+          <textarea type="text" name="description" id="edit-shoes-form-description-input"
+            placeholder="Description"></textarea>
+        </div>
+        <div class="d-flex mt-3 mb-3">
+          <input type="checkbox" name="checkbox" id="edit-shoes-featured-checkbox" class="mt-1 me-2">
+          <label for="checkbox">Featured shoe</label>
+        </div>
+        <input type="text" name="edit-shoes-form-id" id="edit-shoes-form-id">
+        <button type="submit" class="mt-2">Update shoe</button>
+        <div class="delete-shoe-button mt-2">Delete shoe</div>
+      </form>
+    </main>
+  </div>
+
+  <footer class="form-footer mt-5">
+    <div class="container text-center d-sm-flex justify-content-between align-items-sm-baseline pt-3 pb-3">
+      <div class="mb-5 mb-sm-0">
+        <div class="footer-logo"><a href="/">LATNA</a></div>
+        <i class="fab fa-facebook-square me-2"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="mb-5 mb-sm-0">
+        <p class="mb-2">Copyright 2021</p>
+        <p>Example@gmail.com</p>
+      </div>
+      <div class="mb-5 mb-sm-0">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a74a43ea10.js" crossorigin="anonymous"></script>
+  <script src="js/editShoesFormDetails.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+//Base typography
+
+body {
+  font-family: $font-family-base;
+ }
+
+ //Logo
+ 
+ .logo {
+   font-size: 25px;
+   font-family: $font-family-logo;
+ 
+   & a{
+     text-decoration: none;
+     color: $link-colour;
+   }
+ }
+
+ //H1 typography
+
+ h1 {
+  font-weight: lighter;
+}
+
+.h1-background {
+  background-color: $background-colour;
+}
+
+ 
+//Card typography
+
+ .card-title {
+   font-size: 20px;
+ }
+
+ .featured-shoes-header {
+   font-weight: lighter;
+   font-size: 30px;
+ }
+
+ //Cart typography
+
+ .cart-shoe-header {
+   font-size: 25px;
+ }
+
+ .checkout-total-text {
+   font-size: 20px;
+ }
+
+ .checkout-total-price {
+   font-size: 20px;
+   font-weight: lighter;
+ }
+
+ //About typography
+
+ .about-header {
+   font-size: 25px;
+ }
+
+  //Footer typography
+
+  .footer-logo {
+    font-size: 25px;
+    font-family: $font-family-logo;
+  
+    & a {
+      text-decoration: none;
+      color: black;
+    }
+   }
