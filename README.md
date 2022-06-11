@@ -4,7 +4,7 @@
 
 ## Description
 
-Latna is an online shoe store who gives the opportunity for useres to add shoes to a favorites page and to a cart page that sums up the total price of all shoes in the cart. On the admin side of the shoe store, the admin has the opportunity to login, add, edit and delete shoes from the frontend side of the project.
+Latna is an "online shoe store" who gives the opportunity for useres to add shoes to a favorites page and to a cart page that sums up the total price of all shoes in the cart. On the admin side of the shoe store, the admin has the opportunity to login, add, edit and delete shoes from the frontend side of the project.
 
 ## Built With
 
