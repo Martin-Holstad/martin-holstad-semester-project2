@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is a test project for setting up react app with router dom and making a api call using axios and store and use the json web token from wordpress using [JWT plugin](https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/)
+This project is an online shoe store who gives the opportunity for useres to add shoes to favorites page and to a cart page that sums up the total price of all shoes in the cart. On the admin side of the shoe store, the admin has the opportunity to login and add, edit and delete shoes from the frontend side of the project.
 
 ## Built With
 
