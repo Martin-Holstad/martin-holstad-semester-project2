@@ -1,4 +1,4 @@
-# Getting to know react
+# Latna
 
 ![image](https://user-images.githubusercontent.com/71444698/173185890-9f7cfc96-f712-4bbe-848b-ff815bd8b12d.png)
 
