@@ -22,19 +22,11 @@ This project is a test project for setting up react app with router dom and maki
 git clone git@github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Martin-Holstad
 ```
 
-2. Install the dependencies:
-
-```
-npm install
-```
-
 ### Running
 
-To run the app, run the following commands:
+To run the app:
 
-```bash
-npm run start
-```
+Recommend using [Live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in Visual Studio Code to run the app in browser
 
 ## Contact
 
