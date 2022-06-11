@@ -9,8 +9,9 @@ This project is a test project for setting up react app with router dom and maki
 ## Built With
 
 - Vanilla JavaScript
+- [Sass](https://sass-lang.com/)
 - [Bootstrap](https://getbootstrap.com)
-- [Strapi](https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html)
+- [Strapi backend](https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html)
 
 ## Getting Started
 
