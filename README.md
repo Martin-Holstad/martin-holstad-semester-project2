@@ -27,7 +27,7 @@ git clone git@github.com/Martin-Holstad/martin-holstad-semester-project2
 
 To run the app:
 
-Recommend using [Live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in Visual Studio Code to run the app in browser
+Recommend using [Live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in Visual Studio Code to run the app in browser and [Live sass compiler extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to watch sass in the browser.
 
 ## Contact
 
