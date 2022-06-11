@@ -8,12 +8,9 @@ This project is a test project for setting up react app with router dom and maki
 
 ## Built With
 
-- [React.js](https://reactjs.org/)
-- [React router](https://reactrouter.com/)
+- Vanilla JavaScript
 - [Bootstrap](https://getbootstrap.com)
-- [Axios](https://axios-http.com/)
-- [Wordpress](https://wordpress.org/)
-- [Wordpress JWT plugin](https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/)
+- [Strapi](https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html)
 
 ## Getting Started
 
