@@ -1,6 +1,6 @@
 # Getting to know react
 
-![image](https://user-images.githubusercontent.com/71444698/173183579-c49da97d-7462-4839-9055-b64610396a14.png)
+![image](https://user-images.githubusercontent.com/71444698/173185827-d953348c-84fa-41dc-8aac-17338f8c73a9.png)
 
 ## Description
 
