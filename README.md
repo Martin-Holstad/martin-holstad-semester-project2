@@ -19,7 +19,7 @@ This project is a test project for setting up react app with router dom and maki
 1. Clone the repo:
 
 ```bash
-git clone git@github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Martin-Holstad
+git clone git@github.com/Martin-Holstad/martin-holstad-semester-project2
 ```
 
 ### Running
